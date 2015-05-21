@@ -1,4 +1,5 @@
-from django.template import Library, TemplateSyntaxError, InvalidTemplateLibrary, get_templatetags_modules, import_library
+from django.template import Library, TemplateSyntaxError
+from django.template.base import get_templatetags_modules, import_library, InvalidTemplateLibrary
 
 def load(parser, lib, tag='*', name=None, namespace=None, app=None):
     """

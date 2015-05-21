@@ -1,4 +1,4 @@
-from django.template import Library, TextNode
+from django.template.base import Library, TextNode
 
 register = Library()
 
